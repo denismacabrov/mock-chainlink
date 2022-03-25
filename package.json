@@ -9,7 +9,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "hardhat": "^2.9.2",
-    "@chainlink/contracts": "^0.4.0"
+    "@chainlink/contracts": "^0.4.0",
+    "hardhat": "^2.9.2"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.6.1"
   }
 }
